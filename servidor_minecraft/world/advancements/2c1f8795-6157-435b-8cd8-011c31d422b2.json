@@ -6868,5 +6868,11 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/melon_smithing": {
+    "criteria": {
+      "has_melon": "2024-12-02 06:21:44 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
