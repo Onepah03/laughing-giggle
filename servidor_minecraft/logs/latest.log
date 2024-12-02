@@ -276,3 +276,16 @@
 [07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 2 providers for mod inmis
 [07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
 [07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[07:34:52] [Server thread/INFO]: PunchJD lost connection: Disconnected
+[07:34:52] [Server thread/INFO]: PunchJD left the game
+[07:35:01] [Server thread/INFO]: Stopping the server
+[07:35:01] [Server thread/INFO]: Stopping server
+[07:35:01] [Server thread/INFO]: Saving players
+[07:35:01] [Server thread/INFO]: Saving worlds
+[07:35:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[07:35:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[07:35:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
