@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-19 20:59:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/distant_lands": {
+    "criteria": {
+      "minecraft:plains": "2024-10-19 20:59:37 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-10-19 20:59:37 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}
