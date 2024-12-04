@@ -263,3 +263,16 @@
 [01:39:45] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
 [01:39:45] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
 [01:39:45] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[01:54:29] [User Authenticator #1/INFO]: UUID of player Zar_R is 30a61b3f-2dd9-4f2a-a395-8a601ae70f76
+[01:54:30] [Server thread/INFO]: Zar_R[/127.236.207.53:57049] logged in with entity id 120 at (471.0244013211519, 89.0, 521.2873804341922)
+[01:54:30] [Server thread/INFO]: Syncing Config Values with Client
+[01:54:30] [Server thread/INFO]: Syncing Values for ModConfigFile: resource_backpacks
+[01:54:30] [Server thread/INFO]: Loading config from file...
+[01:54:30] [Server thread/INFO]: Zar_R joined the game
+[01:54:32] [Server thread/INFO]: Priority overwritten for player Zar_R. Claiming: GRAVE / Robbing: INVENTORY
+[01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip] Zar_R: protocol version: 2.0
+[01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 3 plugins: inmis, resource_backpacks, shulkerboxtooltip
+[01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 1 provider for mod resource_backpacks
+[01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 2 providers for mod inmis
+[01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
+[01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip

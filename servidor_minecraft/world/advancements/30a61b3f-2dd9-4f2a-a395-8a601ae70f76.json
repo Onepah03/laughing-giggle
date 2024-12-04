@@ -2254,21 +2254,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-02 05:53:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2024-12-02 05:53:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-02 06:06:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2024-12-02 06:10:30 +0000"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_hammock_white": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2024-12-02 06:36:17 +0000"
     },
     "done": true
   },
@@ -2278,7 +2284,133 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-12-02 06:11:03 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_hammock_white": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_sleeping_bag_white": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_white_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-02 06:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-02 06:19:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/melon_smithing": {
+    "criteria": {
+      "has_melon": "2024-12-02 06:22:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-12-02 06:35:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-12-02 06:35:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-12-02 06:36:17 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2024-12-02 06:44:28 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:44:34 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_sleeping_bag_black": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 06:44:34 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_hammock_black": {
     "criteria": {
       "has_needed_dye": "2024-12-02 06:44:34 +0000"
     },
@@ -2296,18 +2428,6 @@
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_black1": {
-    "criteria": {
-      "recipe_condition": "2024-12-02 06:51:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2024-12-02 06:48:06 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_lime2": {
     "criteria": {
       "recipe_condition1": "2024-12-02 06:44:55 +0000"
@@ -2317,30 +2437,6 @@
   "connectedglass:recipes/misc/clear_glass_orange2": {
     "criteria": {
       "recipe_condition1": "2024-12-02 06:44:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_candle": {
-    "criteria": {
-      "has_white_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_sleeping_bag_black": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:44:34 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_black_pane3": {
-    "criteria": {
-      "recipe_condition": "2024-12-02 06:51:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2024-12-02 06:06:42 +0000"
     },
     "done": true
   },
@@ -2356,27 +2452,9 @@
     },
     "done": true
   },
-  "comforts:recipes/building_blocks/dye_hammock_black": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:44:34 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_pink2": {
     "criteria": {
       "recipe_condition1": "2024-12-02 06:44:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-12-02 05:53:49 +0000"
     },
     "done": true
   },
@@ -2392,45 +2470,9 @@
     },
     "done": true
   },
-  "connectedglass:recipes/misc/clear_glass_black_pane3": {
-    "criteria": {
-      "recipe_condition": "2024-12-02 06:51:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
-    "criteria": {
-      "has_log": "2024-12-02 05:53:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lime_dye": {
-    "criteria": {
-      "has_white_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_black1": {
-    "criteria": {
-      "recipe_condition": "2024-12-02 06:51:33 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/scratched_glass1": {
     "criteria": {
       "recipe_condition": "2024-12-02 06:44:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/squid": {
-    "criteria": {
-      "has_ink_sac": "2024-12-02 06:44:28 +0000"
     },
     "done": true
   },
@@ -2446,33 +2488,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/melon_smithing": {
-    "criteria": {
-      "has_melon": "2024-12-02 06:22:00 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_gray2": {
     "criteria": {
       "recipe_condition1": "2024-12-02 06:44:55 +0000"
-    },
-    "done": true
-  },
-  "comforts:recipes/building_blocks/dye_sleeping_bag_white": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:13:52 +0000"
     },
     "done": true
   },
@@ -2482,27 +2500,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2024-12-02 06:35:40 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_green2": {
     "criteria": {
       "recipe_condition1": "2024-12-02 06:44:55 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_white_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-12-02 06:13:52 +0000"
     },
     "done": true
   },
@@ -2512,45 +2512,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-12-02 06:19:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_black1": {
-    "criteria": {
-      "recipe_condition": "2024-12-02 06:51:21 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_black2": {
     "criteria": {
       "recipe_condition1": "2024-12-02 06:44:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-12-02 06:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2024-12-02 06:51:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/anvil": {
-    "criteria": {
-      "has_iron_block": "2024-12-02 06:35:40 +0000"
     },
     "done": true
   },
@@ -2560,9 +2524,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/misc/coal": {
     "criteria": {
-      "has_bone_meal": "2024-12-02 06:11:03 +0000"
+      "has_coal_block": "2024-12-02 06:48:06 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black1": {
+    "criteria": {
+      "recipe_condition": "2024-12-02 06:51:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-12-02 06:51:10 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black_pane3": {
+    "criteria": {
+      "recipe_condition": "2024-12-02 06:51:21 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black1": {
+    "criteria": {
+      "recipe_condition": "2024-12-02 06:51:21 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black_pane3": {
+    "criteria": {
+      "recipe_condition": "2024-12-02 06:51:33 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black1": {
+    "criteria": {
+      "recipe_condition": "2024-12-02 06:51:33 +0000"
     },
     "done": true
   },
