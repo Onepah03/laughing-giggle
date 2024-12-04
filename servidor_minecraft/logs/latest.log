@@ -1,5 +1,5 @@
-[07:10:40] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[07:10:41] [main/INFO]: Loading 110 mods:
+[01:39:21] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[01:39:22] [main/INFO]: Loading 110 mods:
 	- architectury 13.0.6
 	- biomesoplenty 21.1.0.6
 	- carryon 2.2.2
@@ -126,166 +126,140 @@
 	        |-- jankson 8.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[07:10:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/laughing-giggle/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:10:41] [main/INFO]: Compatibility level set to JAVA_16
-[07:10:41] [main/INFO]: Compatibility level set to JAVA_17
-[07:10:41] [main/INFO]: Compatibility level set to JAVA_21
-[07:10:41] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:10:42] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[07:10:42] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[07:10:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[07:10:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[07:10:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[07:10:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[07:10:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[07:10:42] [main/INFO]: Loaded configuration file for Lithium: 143 options available, 2 override(s) found
-[07:10:42] [main/WARN]: Reference map 'lithium.refmap.json' for lithium.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:10:42] [main/WARN]: Reference map 'lithium-fabric.refmap.json' for lithium-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:10:42] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
-[07:10:42] [main/INFO]: Applying Nashorn fix
-[07:10:43] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[07:10:43] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[07:10:43] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[07:10:43] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[07:10:43] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[07:10:43] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[07:10:43] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[07:10:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[07:10:47] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[07:10:51] [main/INFO]: Vanilla bootstrap took 6844 milliseconds
-[07:10:51] [main/INFO]: Loaded config for: cupboard.json
-[07:10:52] [main/INFO]: Loading Collective version 7.84.
-[07:10:52] [main/ERROR]: No data fixer registered for biomesoplenty:boat
-[07:10:52] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
-[07:10:52] [main/ERROR]: No data fixer registered for anomaly
-[07:10:52] [main/INFO]: Loading Noisium.
-[07:10:52] [main/INFO]: Blodhgarm: Did you know it took four switcheroos to implement MatrixStackTransformer in the correct package?
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[07:10:52] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[07:10:52] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[07:10:52] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[07:10:53] [main/INFO]: [ServerCore] Loaded V1.5.5+1.21.1!
-[07:10:53] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07:10:53] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[07:10:53] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[07:10:53] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[07:10:53] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[07:10:53] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[07:10:53] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[07:10:53] [main/ERROR]: No data fixer registered for 
-[07:10:53] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[07:10:53] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[07:10:53] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[07:10:53] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[07:10:53] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[07:10:53] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[07:10:53] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:10:55] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
-[07:10:57] [main/INFO]: Loaded 2106 recipes
-[07:10:57] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[07:10:57] [main/INFO]: Loaded 2264 advancements
-[07:10:57] [main/INFO]: [REI] ========================================
-[07:10:57] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[07:10:57] [main/INFO]: [REI] Plugins (4):
-[07:10:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[07:10:57] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
-[07:10:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI] ========================================
-[07:10:57] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[07:10:57] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[07:10:57] [main/INFO]: [REI] Plugins (4):
-[07:10:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[07:10:57] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
-[07:10:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[07:10:57] [main/INFO]: [REI] REIPlugin finished post-reload for START in 3.823 ms, totaling 36.17 ms.
-[07:10:57] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.110 ms, totaling 10.16 ms.
-[07:10:57] [main/INFO]: [REI] ----------------------------------------
-[07:10:57] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[07:10:57] [main/INFO]: [REI] Plugins (4):
-[07:10:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[07:10:57] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
-[07:10:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI] ----------------------------------------
-[07:10:57] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[07:10:57] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[07:10:57] [main/INFO]: [REI] Plugins (4):
-[07:10:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[07:10:57] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
-[07:10:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[07:10:57] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[07:10:57] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.022 ms, totaling 30.96 ms.
-[07:10:57] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 1.592 ms, totaling 13.38 ms.
-[07:10:57] [main/INFO]: Reloading grave shape (server)
-[07:10:57] [main/INFO]: Grave model and shape reload successful (server)
-[07:10:57] [main/INFO]: Reloading YIGD graveyard data (server)
-[07:10:57] [main/INFO]: Graveyard data successfully reloaded (server)
-[07:10:57] [main/INFO]: Reloading YIGD grave area overrides (server)
-[07:10:57] [main/INFO]: Grave area overrides successfully reloaded (server)
-[07:10:57] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:black_dyes, c:blue_dyes, c:brown_dyes, c:cyan_dyes, c:gray_dyes, c:green_dyes, c:light_blue_dyes, c:light_gray_dyes, c:lime_dyes, c:magenta_dyes, c:orange_dyes, c:pink_dyes, c:purple_dyes, c:red_dyes, c:white_dyes, c:yellow_dyes
-[07:10:58] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07:10:58] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[07:10:58] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 2.092 ms
-[07:10:58] [Server thread/INFO]: Starting background profiler...
-[07:10:58] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[07:10:58] [Server thread/INFO]: Loading properties
-[07:10:58] [Server thread/INFO]: Default game type: SURVIVAL
-[07:10:58] [Server thread/INFO]: Generating keypair
-[07:10:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:10:59] [Server thread/INFO]: Using epoll channel type
-[07:10:59] [Server thread/INFO]: Loaded config for: dynamicview.json
-[07:10:59] [Server thread/INFO]: Preparing level "world"
-[07:10:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:10:59] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[07:11:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[07:11:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[07:11:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[07:11:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[07:11:01] [Server thread/INFO]: Time elapsed: 2031 ms
-[07:11:01] [Server thread/INFO]: Done (2.600s)! For help, type "help"
-[07:11:01] [Server thread/WARN]: Dedicated server took 23.063 seconds to load
-[07:11:02] [Server thread/INFO]: Loaded config for: smoothchunk.json
-[07:11:02] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[07:11:02] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[07:11:02] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[07:11:06] [User Authenticator #1/INFO]: UUID of player PunchJD is 2c1f8795-6157-435b-8cd8-011c31d422b2
-[07:11:09] [Server thread/INFO]: PunchJD[/127.94.255.78:48513] logged in with entity id 120 at (276.5429263683755, 34.0, -5.277087855351072)
-[07:11:09] [Server thread/INFO]: Syncing Config Values with Client
-[07:11:09] [Server thread/INFO]: Syncing Values for ModConfigFile: resource_backpacks
-[07:11:09] [Server thread/INFO]: Loading config from file...
-[07:11:09] [Server thread/INFO]: PunchJD joined the game
-[07:11:10] [Server thread/INFO]: Priority overwritten for player PunchJD. Claiming: GRAVE / Robbing: INVENTORY
-[07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip] PunchJD: protocol version: 2.0
-[07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 3 plugins: inmis, resource_backpacks, shulkerboxtooltip
-[07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 1 provider for mod resource_backpacks
-[07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 2 providers for mod inmis
-[07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
-[07:11:10] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
-[07:34:52] [Server thread/INFO]: PunchJD lost connection: Disconnected
-[07:34:52] [Server thread/INFO]: PunchJD left the game
-[07:35:01] [Server thread/INFO]: Stopping the server
-[07:35:01] [Server thread/INFO]: Stopping server
-[07:35:01] [Server thread/INFO]: Saving players
-[07:35:01] [Server thread/INFO]: Saving worlds
-[07:35:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
-[07:35:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
-[07:35:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
-[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:35:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:39:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/laughing-giggle/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:39:23] [main/INFO]: Compatibility level set to JAVA_16
+[01:39:23] [main/INFO]: Compatibility level set to JAVA_17
+[01:39:23] [main/INFO]: Compatibility level set to JAVA_21
+[01:39:23] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:39:23] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:39:23] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[01:39:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[01:39:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[01:39:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[01:39:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[01:39:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[01:39:23] [main/INFO]: Loaded configuration file for Lithium: 143 options available, 2 override(s) found
+[01:39:23] [main/WARN]: Reference map 'lithium.refmap.json' for lithium.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:39:23] [main/WARN]: Reference map 'lithium-fabric.refmap.json' for lithium-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:39:23] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
+[01:39:23] [main/INFO]: Applying Nashorn fix
+[01:39:24] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[01:39:24] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[01:39:24] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[01:39:24] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[01:39:24] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[01:39:24] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[01:39:24] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[01:39:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:39:30] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[01:39:34] [main/INFO]: Vanilla bootstrap took 8478 milliseconds
+[01:39:34] [main/INFO]: Loaded config for: cupboard.json
+[01:39:34] [main/INFO]: Loading Collective version 7.84.
+[01:39:35] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[01:39:35] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[01:39:35] [main/ERROR]: No data fixer registered for anomaly
+[01:39:35] [main/INFO]: Loading Noisium.
+[01:39:35] [main/INFO]: glisco: I like this approach, cause it's stateless. And stateless approaches are always good since state management is pain - BasiqueEvangelist: I like french bread
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[01:39:35] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[01:39:35] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[01:39:35] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[01:39:35] [main/INFO]: [ServerCore] Loaded V1.5.5+1.21.1!
+[01:39:35] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01:39:35] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[01:39:35] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[01:39:35] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[01:39:35] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[01:39:35] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[01:39:35] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[01:39:36] [main/ERROR]: No data fixer registered for 
+[01:39:36] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[01:39:36] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[01:39:36] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[01:39:36] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[01:39:36] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01:39:36] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[01:39:36] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:39:40] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[01:39:41] [main/INFO]: Loaded 2106 recipes
+[01:39:41] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[01:39:41] [main/INFO]: Loaded 2264 advancements
+[01:39:41] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[01:39:41] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[01:39:41] [main/INFO]: [REI] Plugins (4):
+[01:39:41] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[01:39:41] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[01:39:41] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[01:39:41] [main/INFO]: [REI] ========================================
+[01:39:41] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[01:39:41] [main/INFO]: [REI] Plugins (4):
+[01:39:41] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[01:39:41] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[01:39:41] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI] ========================================
+[01:39:41] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.528 ms, totaling 37.16 ms.
+[01:39:41] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.438 ms, totaling 8.339 ms.
+[01:39:41] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[01:39:41] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[01:39:41] [main/INFO]: [REI] Plugins (4):
+[01:39:41] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[01:39:41] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[01:39:41] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[01:39:41] [main/INFO]: [REI] ########################################
+[01:39:41] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[01:39:41] [main/INFO]: [REI] Plugins (4):
+[01:39:41] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[01:39:41] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[01:39:41] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[01:39:41] [main/INFO]: [REI] ########################################
+[01:39:41] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.415 ms, totaling 32.70 ms.
+[01:39:41] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 970.9 μs, totaling 14.07 ms.
+[01:39:41] [main/INFO]: Reloading grave shape (server)
+[01:39:41] [main/INFO]: Grave model and shape reload successful (server)
+[01:39:41] [main/INFO]: Reloading YIGD graveyard data (server)
+[01:39:41] [main/INFO]: Graveyard data successfully reloaded (server)
+[01:39:41] [main/INFO]: Reloading YIGD grave area overrides (server)
+[01:39:41] [main/INFO]: Grave area overrides successfully reloaded (server)
+[01:39:41] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:black_dyes, c:blue_dyes, c:brown_dyes, c:cyan_dyes, c:gray_dyes, c:green_dyes, c:light_blue_dyes, c:light_gray_dyes, c:lime_dyes, c:magenta_dyes, c:orange_dyes, c:pink_dyes, c:purple_dyes, c:red_dyes, c:white_dyes, c:yellow_dyes
+[01:39:41] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[01:39:42] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[01:39:42] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 1.807 ms
+[01:39:42] [Server thread/INFO]: Starting background profiler...
+[01:39:42] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:39:42] [Server thread/INFO]: Loading properties
+[01:39:42] [Server thread/INFO]: Default game type: SURVIVAL
+[01:39:42] [Server thread/INFO]: Generating keypair
+[01:39:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:39:43] [Server thread/INFO]: Using epoll channel type
+[01:39:43] [Server thread/INFO]: Loaded config for: dynamicview.json
+[01:39:43] [Server thread/INFO]: Preparing level "world"
+[01:39:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:39:43] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[01:39:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:39:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:39:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:39:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:39:45] [Server thread/INFO]: Time elapsed: 1741 ms
+[01:39:45] [Server thread/INFO]: Done (2.296s)! For help, type "help"
+[01:39:45] [Server thread/WARN]: Dedicated server took 28.541 seconds to load
+[01:39:45] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[01:39:45] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01:39:45] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[01:39:45] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
