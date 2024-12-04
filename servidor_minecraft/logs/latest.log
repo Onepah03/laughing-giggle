@@ -276,3 +276,4 @@
 [01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 2 providers for mod inmis
 [01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
 [01:54:32] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[02:13:12] [Server thread/ERROR]: POI data mismatch: never registered at class_2338{x=477, y=85, z=499}
